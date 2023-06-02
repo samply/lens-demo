@@ -1,0 +1,17 @@
+name: "Build Samply.Lens Demo"
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    # see: https://github.com/samply/github-workflows/blob/develop/.github/workflows/maven-ci.yml, for more information
+    uses: samply/github-workflows/.github/workflows/docker-ci.yml@main
+    with:
+      # The Docker Hub Repository you want eventually push to, e.g samply/share-client
+      image-name: "samply/lens-demo"
+    secrets:
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
