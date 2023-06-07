@@ -943,7 +943,8 @@ export const staticCatalogue: Array<Category> = [
     // @TODO: Fernmitastasen is missing
     // @TODO Lokalisation Fernmittastasen is missing
   ]),
-  new Category('therapy_of_tumor', 'Therapie des Tumors', [ // @TODO: only one category with the following types is necessary: OP, Strahlentherapie, Chemotherapie, Immuntherapie, Hormontherapie und Knochentransplantation  XXXXXXXXXXXXXXXXX
+  new Category('therapy_of_tumor', 'Therapie des Tumors', [
+    // @TODO: only one category with the following types is necessary: OP, Strahlentherapie, Chemotherapie, Immuntherapie, Hormontherapie und Knochentransplantation  XXXXXXXXXXXXXXXXX
     new Criteria('OP', { de: 'Operation', en: '' }, 'boolean', ''),
     new Criteria('ST', { de: 'Strahlentherapie', en: '' }, 'boolean', ''),
     new Criteria('CH', { de: 'Chemotherapie', en: '' }, 'boolean', ''),
