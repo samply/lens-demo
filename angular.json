@@ -55,6 +55,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "preserveSymlinks": true,
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
