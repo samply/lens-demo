@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This repository is no longer actively maintained. Please use the new Lens library here: https://github.com/samply/lens
+
 # Samply.Lens Demo Application
 
 This project holds a demo application for the [samply.lens](https://github.com/samply/lens) project. It's intended usage is to provide an example for developers on how to use samply.lens in their application.
